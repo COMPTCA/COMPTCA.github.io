@@ -1,0 +1,47 @@
+article{
+	position: relative;
+}
+body{
+ 	background-color: orange;
+  	color: Gold;
+}
+h1{
+  	text-align: center;
+	font-family:
+}
+header{
+  	background-color: darkorange;
+	border-color: orange;
+	border-style: double;
+	border-width: 5px;
+}
+.left{
+	border-style: double;
+	border-color: orange;
+	position: absolute;
+	text-align: center;
+	width: 20%;
+}
+.d1{
+	background-color: darkorange;
+	border-style: double;
+	border-color: orange;
+	border-width: 5px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.d2{
+	background-color: darkorange;
+	border-style: double;
+	border-color: orange;
+	border-width: 5px;
+	position: relative;
+}
+.right{
+	border-style: double;
+	border-color: orange;
+	margin-left: 20%;
+	position: absolute;
+	text-align: center;
+	width: 79.5%;
+}

@@ -1,0 +1,13 @@
+.image{
+    background-color: green;
+    float: left;
+
+    height: inherit;
+    width: inherit;
+
+    border: 5px solid black;
+    margin: 10px;
+    outline: 20px solid red;
+    padding: 5px;
+
+}

@@ -1,0 +1,13 @@
+.main_body{
+    width: 1000px;
+    height: 600px;
+    background-image: url(Images/treeoflife.png), url(Images/banner.png);
+    background-repeat: no-repeat, repeat-x;
+    background-size: 200px, auto;
+    background-position: top right, top center;
+}
+
+h1{
+    color: lightblue;
+    font-size: 50px;
+}

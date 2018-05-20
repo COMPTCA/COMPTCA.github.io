@@ -1,0 +1,10 @@
+<p id="bs">Browser Support</p>
+<div id="subbs">
+	<ul>
+		<li>Chrome: </li>
+		<li>Internet Explorer: </li>
+		<li>Firefox: </li>
+		<li>Safari: </li>
+		<li>Opera: </li>
+	</ul>
+</div>

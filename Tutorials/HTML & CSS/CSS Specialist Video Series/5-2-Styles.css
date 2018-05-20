@@ -1,0 +1,17 @@
+.show-bkg{
+    background-color: grey;
+}
+#target{
+    background-color: rgb(150, 150, 255);
+
+    /* position: static; */ /* offstes don't affect static positioning */
+    /* position: relative: */ /* positioning is still in the same spot as it would normally, just offset a little; the computer still thinks it's in its normal position */
+    /* position: absolute; */ /* positioning is absolute; offset as an entire block instead of text; displays in a set position */
+    position: fixed; /* displays in the same position on the screen no matter how far you scoll it */
+    /* top: 100px; */
+
+    top: 50%;
+    
+    /* z-index: -1; */ /* positions text behind other text */
+    /* z-index: 1; */ /* displays text in front of other tet */
+}

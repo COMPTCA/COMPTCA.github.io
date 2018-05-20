@@ -1,0 +1,10 @@
+body{
+    color: #665544;
+    font-family: Arial, Verdana, sans-serif;
+    width: 1000px;
+}
+.column1of3, .column2of3, .column3of3{
+    float: left;
+    margin: 10px;
+    width: 300px;
+}

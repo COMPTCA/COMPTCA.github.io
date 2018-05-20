@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML5 Reference</title>
+        <meta name="description" content="An HTML5 example page"/>
+        <meta name="author" content="Cole Compton"/>
+        <style>
+            .centered{
+                color: white;
+                left: 25px;
+                position: absolute;
+                top: 58px;
+            }
+            ul
+            {
+                display: inline;
+                position: absolute;
+                top: 40px;
+            }
+            .li
+            {
+                display: inline;
+                list-style-type: none;
+                padding: 15px;
+            }
+            a
+            {
+                color: white;
+                text-decoration: none;
+            }
+            a:hover
+            {
+                color: grey;
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <header style="width: 100%;">
+            <nav style="background-color: black;">
+				<img src="logo.png" alt="HTML5 Logo" width="125" height="100"/>
+                <div class="centered">Cole Compton</div>
+                <ul class="ul">
+                    <li class="li"><a href="#">Home</a></li>
+                    <li class="li"><a href="#">Content</a></li>
+                    <li class="li"><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article style="color: #fff;">
+            <aside style="float: left; background-color: #222; width: 300px;">
+                <p style="padding: 5px 50px 0 50px; text-align: center;">Project Names</p>
+                <hr style="width: 20px"/>
+            </aside>
+            <main style="float: left; background-color: #333; width: 50%; width: 97%; position: absolute; z-index: -1;">
+                <p style="padding: 5px 75px 0 75px; text-align: center;">Project Details</p>
+                <hr style="width: 20px;"/>
+            </main>
+            <aside style="float: right; background-color: #222; width: 300px;">
+                <p style="padding: 5px 50px 0 50px; text-align: center;">Project Images</p>
+                <hr style="width: 20px"/>
+            </aside>
+        </article>
+    </body>
+</html>

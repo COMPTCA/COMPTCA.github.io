@@ -1,0 +1,35 @@
+p.one{
+    background-color: #eeeeee;
+    color: #666666;
+    margin: 0;
+    padding: 10px;
+    text-shadow: 1px 1px #000000;
+}
+p.two{
+    background-color: #dddddd;
+    color: #666666;
+    margin: 0;
+    padding: 10px;
+    text-shadow: 1px 1px 3px #666666;
+}
+p.three{
+    background-color: #cccccc;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    text-shadow: 2px 2px 7px #111111;
+}
+p.four{
+    background-color: #bbbbbb;
+    color: #cccccc;
+    margin: 0;
+    padding: 10px;
+    text-shadow: -1px -2px #666666;
+}
+p.five{
+    background-color: #aaaaaa;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    text-shadow: -1px -1px #666666;
+}

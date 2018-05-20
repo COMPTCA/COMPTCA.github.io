@@ -1,0 +1,24 @@
+p.one{
+	border: 5px solid;
+}
+p.two{
+	border: 5px dotted;
+}
+p.three{
+	border: 5px dashed;
+}
+p.four{
+	border: 5px double;
+}
+p.five{
+	border: 5px groove;
+}
+p.six{
+	border: 5px ridge;
+}
+p.seven{
+	border: 5px inset;
+}
+p.eight{
+	border: 5px outset;
+}

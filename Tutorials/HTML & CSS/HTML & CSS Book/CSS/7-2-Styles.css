@@ -1,0 +1,12 @@
+img.align-left{
+	float: left;
+	margin-right: 10px;
+}
+img.align-right{
+	float: right;
+	margin: 10px;
+}
+img.medium{
+	height: 250px;
+	width: 250px;
+}

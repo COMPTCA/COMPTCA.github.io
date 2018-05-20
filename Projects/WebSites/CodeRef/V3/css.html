@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Cole A. Compton">
+		<meta name="Purpose" content="A Personal Coding Reference Guide">
+		<title>CodeRef</title>
+		<style>
+			body{
+				background-color: #006400;
+				color: #00ff00;
+				text-align: center;
+			}
+			hr{
+				border-color: green;
+				border-style: inset;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>CSS</h1>
+		</header>
+		<hr>
+		<article>
+			<p>
+				align-content<br>
+				Specifies the alignment between the lines inside a flexible container when the items do not use all available space
+			</p>
+			<p>
+				align-items<br>
+				Specifies the alignment for items inside a flexible container
+			</p>
+			<p>
+				align-self<br>
+				Specifies the alignment for selected items inside a flexible container
+			</p>
+			<p>
+				all<br>
+				Resets all properties exept unicode-bidi and direction
+			</p>
+			<p>
+				animation<br>
+				A shorthand property for all the animation properties
+			</p>
+			<p>
+				animation-delay<br>
+				Specifies a delay for the start of an animation
+			</p>
+			<p>
+				animation-direction<br>
+				Specifies whether an animation should be played forwards, backwards, or in alternate cycles
+			</p>
+			<p>
+				animation-duration<br>
+				Specifies how long an animation should take to complete one cycle
+			</p>
+			<p>
+				animation-fill-mode<br>
+				Specifies a style for the element when an animation is not playing (before it starts, after it ends, or both)
+			</p>
+			<p>
+				animation-iteration-count<br>
+				Specifies the number of times an animation should be played
+			</p>
+			<p>
+				animation-name<br>
+				Specifies a name for the @keyframes animation
+			</p>
+			<p>
+				animation-play-state<br>
+				Specifies whether the animation is running or paused
+			</p>
+			<p>
+				animation-timing-function<br>
+				Specifies the speed curve of an animation
+			</p>
+			<p>
+				backface-visibility<br>
+				Defines whether or not the back face of an element should be visible when facing the user
+			</p>
+			<p>
+				background<br>
+				A shorthand property for setting all the background properties in one declaration
+			</p>
+			<p>
+				background-attachment<br>
+				Sets whether a background image scrolls with the rest of the page, or is fixed
+			</p>
+			<p>
+				background-blend-mode<br>
+				Specifies the blending mode of each background layer (color/image)
+			</p>
+			<p>
+				background-clip<br>
+				Defines how far the background, color or image, should extend within an element
+			</p>
+			<p>
+				background-color<br>
+				Specifies the background color of an element
+			</p>
+			<p>
+				background-image<br>
+				Specifies one or more background images for an element
+			</p>
+			<p>
+				background-origin<br>
+				Specifies the origin position of a background image
+			</p>
+			<p>
+				background-position<br>
+				Specifies the position of a background image
+			</p>
+			<p>
+				background-repeat<br>
+				Sets if/how a background image will be repeated
+			</p>
+			<p>
+				background-size<br>
+				Specifies the size of the background images
+			</p>
+			<p>
+				border<br>
+				A shorthand property for border-width, border-style, and border-color
+			</p>
+			<p>
+				border-bottom<br>
+				A shorthand property for setting all the bottom border properties in one declaration
+			</p>
+			<p>
+				border-bottom-color<br>
+				Sets the color of the bottom border
+			</p>
+			<p>
+				border-bottom-left-radius<br>
+				Defines the radius of the border of the bottom-left corner
+			</p>
+			<p>
+				border-bottom-right-radius<br>
+				Defines the radius of the border of the bottom-right corner
+			</p>
+			<p>
+				border-bottom-style<br>
+				Sets the style of the bottom border
+			</p>
+			<p>
+				border-bottom-width<br>
+				Sets the width of the bottom border
+			</p>
+			<p>
+				border-collapse<br>
+				Sets whether table borders should collapse into a single border or be separated
+			</p>
+			<p>
+				border-color<br>
+				Sets the color of the four borders
+			</p>
+			<p>
+				border-image<br>
+				A shorthand property for setting all the border-image-* properties
+			</p>
+			<p>
+				border-image-outset<br>
+				Specifies the amount by which the border image area extends beyond the border box
+			</p>
+			<p>
+				border-image-repeat<br>
+				Specifies whether the border image should be repeated, rounded or stretched
+			</p>
+			<p>
+				border-image-slice<br>
+				Specifies how to slice the border image
+			</p>
+			<p>
+				border-image-source<br>
+				Specifies the path to the image to be used as a border
+			</p>
+			<p>
+				border-image-width<br>
+				Specifies the width of the border image
+			</p>
+			<p>
+				border-left<br>
+				A shorthand property for setting all the left border properties in one declaration
+			</p>
+			<p>
+				border-left-color<br>
+				Sets the color of the left border
+			</p>
+			<p>
+				border-left-style<br>
+				Sets the style of the left border
+			</p>
+			<p>
+				border-left-width<br>
+				Sets the width of the left border
+			</p>
+			<p>
+				border-radius<br>
+				A shorthand property for setting all the four border-*-radius properties
+			</p>
+			<p>
+				border-right<br>
+				A shorthand property for setting all the right border properties in one declaration
+			</p>
+			<p>
+				border-right-color<br>
+				Sets the color of the right border
+			</p>
+			<p>
+				border-right-style<br>
+				Sets the style of the right border
+			</p>
+			<p>
+				border-right-width<br>
+				Sets the width of the right border
+			</p>
+			<p>
+				border-spacing<br>
+				Sets the distance between the borders of adjacent cells
+			</p>
+			<p>
+				border-style<br>
+				Sets the style of the four borders
+			</p>
+			<p>
+				border-top<br>
+				A shorthand property for setting all the top border properties in one declaration
+			</p>
+			<p>
+				border-top-color<br>
+				Sets the color of the top border
+			</p>
+			<p>
+				border-top-left-radius<br>
+				Defines the radius of the border of the top-left corner
+			</p>
+			<p>
+				border-top-right-radius<br>
+				Defines the radius of the border of the top-right corner
+			</p>
+			<p>
+				border-top-style<br>
+				Sets the style of the top border
+			</p>
+			<p>
+				border-top-width<br>
+				Sets the width of the top border
+			</p>
+			<p>
+				border-width<br>
+				Sets the width of the four borders
+			</p>
+			<p>
+				bottom<br>
+				Sets the elements position, from the bottom of its parent element
+			</p>
+			<p>
+				box-decoration-break<br>
+				Sets the behavior of the background and border of an element at page-break, or, for in-line elements, at line-break.
+			</p>
+			<p>
+				box-shadow<br>
+				Attaches one or more shadows to an element
+			</p>
+			<p>
+				box-sizing<br>
+				Defines how the width and height of an element are calculated: should they include padding and borders, or not
+			</p>
+			<p>
+				caption-side<br>
+				Specifies the placement of a table caption
+			</p>
+			<p>
+				caret-color<br>
+				Specifies the color of the cursor (caret) in inputs, textareas, or any element that is editable
+			</p>
+			<p>
+				@charset<br>
+				Specifies the character encoding used in the style sheet
+			</p>
+			<p>
+				clear<br>
+				Specifies on which sides of an element floating elements are not allowed to float
+			</p>
+			<p>
+				clip<br>
+				Clips an absolutely positioned element
+			</p>
+			<p>
+				color<br>
+				Sets the color of text
+			</p>
+			<p>
+				column-count<br>
+				Specifies the number of columns an element should be divided into
+			</p>
+			<p>
+				column-fill<br>
+				Specifies how to fill columns, balanced or not
+			</p>
+			<p>
+				column-gap<br>
+				Specifies the gap between the columns
+			</p>
+			<p>
+				column-rule<br>
+				A shorthand property for setting all the column-rule-* properties
+			</p>
+			<p>
+				column-rule-color<br>
+				Specifies the color of the rule between columns
+			</p>
+			<p>
+				column-rule-style<br>
+				Specifies the style of the rule between columns
+			</p>
+			<p>
+				column-rule-width<br>
+				Specifies the width of the rule between columns
+			</p>
+			<p>
+				column-span<br>
+				Specifies how many columns an element should span across
+			</p>
+			<p>
+				column-width<br>
+				Specifies the column width
+			</p>
+			<p>
+				columns<br>
+				A shorthand property for setting column-width and column-count
+			</p>
+			<p>
+				content<br>
+				Used with the :before and :after pseudo-elements, to insert generated content
+			</p>
+			<p>
+				counter-increment<br>
+				Increases or decreases the value of one or more CSS counters
+			</p>
+			<p>
+				counter-reset<br>
+				Creates or resets one or more CSS counters
+			</p>
+			<p>
+				cursor<br>
+				Specifies the mouse cursor to be displayed when pointing over an element
+			</p>
+			<p>
+				direction<br>
+				Specifies the text direction/writing direction
+			</p>
+			<p>
+				display<br>
+				Specifies how a certain HTML element should be displayed
+			</p>
+			<p>
+				empty-cells<br>
+				Specifies whether or not to display borders and background on empty cells in a table
+			</p>
+			<p>
+				filter<br>
+				Defines effects (e.g. blurring or color shifting) on an element before the element is displayed
+			</p>
+			<p>
+				flex<br>
+				A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
+			</p>
+			<p>
+				flex-basis<br>
+				Specifies the initial length of a flexible item
+			</p>
+			<p>
+				flex-direction<br>
+				Specifies the direction of the flexible items
+			</p>
+			<p>
+				flex-flow<br>
+				A shorthand property for the flex-direction and the flex-wrap properties
+			</p>
+			<p>
+				flex-grow<br>
+				Specifies how much the item will grow relative to the rest
+			</p>
+			<p>
+				flex-shrink<br>
+				Specifies how the item will shrink relative to the rest
+			</p>
+			<p>
+				flex-wrap<br>
+				Specifies whether the flexible items should wrap or not
+			</p>
+			<p>
+				float<br>
+				Specifies whether or not a box should float
+			</p>
+			<p>
+				font<br>
+				Sets all the font properties in one declaration
+			</p>
+			<p>
+				@font-face<br>
+				A rule that allows websites to download and use fonts other than the "web-safe" fonts
+			</p>
+			<p>
+				font-family<br>
+				Specifies the font family for text
+			</p>
+			<p>
+				font-kerning<br>
+				Controls the usage of the kerning information (how letters are spaced)
+			</p>
+			<p>
+				font-size<br>
+				Specifies the font size of text
+			</p>
+			<p>
+				font-size-adjust<br>
+				Preserves the readability of text when font fallback occurs
+			</p>
+			<p>
+				font-stretch<br>
+				Selects a normal, condensed, or expanded face from a font family
+			</p>
+			<p>
+				font-style<br>
+				Specifies the font style for text
+			</p>
+			<p>
+				font-variant<br>
+				Specifies whether or not a text should be displayed in a small-caps font
+			</p>
+			<p>
+				font-weight<br>
+				Specifies the weight of a font
+			</p>
+			<p>
+				grid<br>
+				A shorthand property for all the grid-* properties
+			</p>
+			<p>
+				grid-area<br>
+				Either specifies a name for the grid item, or this property is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties
+			</p>
+			<p>
+				grid-auto-columns<br>
+				Specifies a default column size
+			</p>
+			<p>
+				grid-auto-flow<br>
+				Specifies how auto-placed items are inserted in the grid
+			</p>
+			<p>
+				grid-auto-rows<br>
+				Specifies a default row size
+			</p>
+			<p>
+				grid-column<br>
+				A shorthand property for the grid-column-start and the grid-column-end properties
+			</p>
+			<p>
+				grid-column-end<br>
+				Specifies where to end the grid item
+			</p>
+			<p>
+				grid-column-gap<br>
+				Specifies the size of the gap between columns
+			</p>
+			<p>
+				grid-column-start<br>
+				Specifies where to start the grid item
+			</p>
+			<p>
+				grid-gap<br>
+				A shorthand property for the grid-row-gap and grid-column-gap properties
+			</p>
+			<p>
+				grid-row<br>
+				A shorthand property for the grid-row-start and the grid-row-end properties
+			</p>
+			<p>
+				grid-row-end<br>
+				Specifies where to end the grid item
+			</p>
+			<p>
+				grid-row-gap<br>
+				Specifies the size of the gap between rows
+			</p>
+			<p>
+				grid-row-start<br>
+				Specifies where to start the grid item
+			</p>
+			<p>
+				grid-template<br>
+				A shorthand property for the grid-template-rows, grid-template-columns and grid-areas properties
+			</p>
+			<p>
+				grid-template-areas<br>
+				Specifies how to display columns and rows, using named grid items
+			</p>
+			<p>
+				grid-template-columns<br>
+				Specifies the size of the columns, and how many columns in a grid layout
+			</p>
+			<p>
+				grid-template-rows<br>
+				Specifies the size of the rows in a grid layout
+			</p>
+			<p>
+				hanging-punctuation<br>
+				Specifies whether a punctuation character may be placed outside the line box
+			</p>
+			<p>
+				height<br>
+				Sets the height of an element
+			</p>
+			<p>
+				@import<br>
+				Allows you to import a style sheet into another style sheet
+			</p>
+			<p>
+				justify-content<br>
+				Specifies the alignment between the items inside a flexible container when the items do not use all available space
+			</p>
+			<p>
+				@keyframes<br>
+				Specifies the animation code
+			</p>
+			<p>
+				left<br>
+				Specifies the left position of a positioned element
+			</p>
+			<p>
+				letter-spacing<br>
+				Increases or decreases the space between characters in a text
+			</p>
+			<p>
+				line-height<br>
+				Sets the line height
+			</p>
+			<p>
+				list-style<br>
+				Sets all the properties for a list in one declaration
+			</p>
+			<p>
+				list-style-image<br>
+				Specifies an image as the list-item marker
+			</p>
+			<p>
+				list-style-position<br>
+				Specifies the position of the list-item markers (bullet points)
+			</p>
+			<p>
+				list-style-type<br>
+				Specifies the type of list-item marker
+			</p>
+			<p>
+				margin<br>
+				Sets all the margin properties in one declaration
+			</p>
+			<p>
+				margin-bottom<br>
+				Sets the bottom margin of an element
+			</p>
+			<p>
+				margin-left<br>
+				Sets the left margin of an element
+			</p>
+			<p>
+				margin-right<br>
+				Sets the right margin of an element
+			</p>
+			<p>
+				margin-top<br>
+				Sets the top margin of an element
+			</p>
+			<p>
+				max-height<br>
+				Sets the maximum height of an element
+			</p>
+			<p>
+				max-width<br>
+				Sets the maximum width of an element
+			</p>
+			<p>
+				@media<br>
+				Sets the style rules for different media types/devices/sizes
+			</p>
+			<p>
+				min-height<br>
+				Sets the minimum height of an element
+			</p>
+			<p>
+				min-width<br>
+				Sets the minimum width of an element
+			</p>
+			<p>
+				object-fit<br>
+				Specifies how the contents of a replaced element should be fitted to the box established by its used height and width
+			</p>
+			<p>
+				opacity<br>
+				Sets the opacity level for an element
+			</p>
+			<p>
+				order<br>
+				Sets the order of the flexible item, relative to the rest
+			</p>
+			<p>
+				outline<br>
+				Sets all the outline properties in one declaration
+			</p>
+			<p>
+				outline-color<br>
+				Sets the color of an outline
+			</p>
+			<p>
+				outline-offset<br>
+				Offsets an outline, and draws it beyond the border edge
+			</p>
+			<p>
+				outline-style<br>
+				Sets the style of an outline
+			</p>
+			<p>
+				outline-width<br>
+				Sets the width of an outline
+			</p>
+			<p>
+				overflow<br>
+				Specifies what happens if content overflows an element's box
+			</p>
+			<p>
+				overflow-x<br>
+				Specifies whether or not to clip the left/right edges of the content, if it overflows the element's content area
+			</p>
+			<p>
+				overflow-y<br>
+				Specifies whether or not to clip the top/bottom edges of the content, if it overflows the element's content area
+			</p>
+			<p>
+				padding<br>
+				Sets all the padding properties in one declaration
+			</p>
+			<p>
+				padding-bottom<br>
+				Sets the bottom padding of an element
+			</p>
+			<p>
+				padding-left<br>
+				Sets the left padding of an element
+			</p>
+			<p>
+				padding-right<br>
+				Sets the right padding of an element
+			</p>
+			<p>
+				padding-top<br>
+				Sets the top padding of an element
+			</p>
+			<p>
+				page-break-after<br>
+				Sets the page-breaking behavior after an element
+			</p>
+			<p>
+				page-break-before<br>
+				Sets the page-breaking behavior before an element
+			</p>
+			<p>
+				page-break-inside<br>
+				Sets the page-breaking behavior inside an element
+			</p>
+			<p>
+				perspective<br>
+				Specifies the perspective on how 3D elements are viewed
+			</p>
+			<p>
+				perspective-origin<br>
+				Specifies the bottom position of 3D elements
+			</p>
+			<p>
+				position<br>
+				Specifies the type of positioning method used for an element (static, relative, absolute or fixed)
+			</p>
+			<p>
+				quotes<br>
+				Sets the type of quotation marks for embedded quotations
+			</p>
+			<p>
+				resize<br>
+				Specifies whether or not an element is resizable by the user
+			</p>
+			<p>
+				right<br>
+				Specifies the right position of a positioned element
+			</p>
+			<p>
+				tab-size<br>
+				Specifies the length of the tab-character
+			</p>
+			<p>
+				table-layout<br>
+				Sets the layout algorithm to be used for a table
+			</p>
+			<p>
+				text-align<br>
+				Specifies the horizontal alignment of text
+			</p>
+			<p>
+				text-align-last<br>
+				Describes how the last line of a block or a line right before a forced line break is aligned when text-align is "justify"
+			</p>
+			<p>
+				text-decoration<br>
+				Specifies the decoration added to text
+			</p>
+			<p>
+				text-decoration-color<br>
+				Specifies the color of the text-decoration
+			</p>
+			<p>
+				text-decoration-line<br>
+				Specifies the type of line in a text-decoration
+			</p>
+			<p>
+				text-decoration-style<br>
+				Specifies the style of the line in a text decoration
+			</p>
+			<p>
+				text-indent<br>
+				Specifies the indentation of the first line in a text-block
+			</p>
+			<p>
+				text-justify<br>
+				Specifies the justification method used when text-align is "justify"
+			</p>
+			<p>
+				text-overflow<br>
+				Specifies what should happen when text overflows the containing element
+			</p>
+			<p>
+				text-shadow<br>
+				Adds shadow to text
+			</p>
+			<p>
+				text-transform<br>
+				Controls the capitalization of text
+			</p>
+			<p>
+				top<br>
+				Specifies the top position of a positioned element
+			</p>
+			<p>
+				transform<br>
+				Applies a 2D or 3D transformation to an element
+			</p>
+			<p>
+				transform-origin<br>
+				Allows you to change the position on transformed elements
+			</p>
+			<p>
+				transform-style<br>
+				Specifies how nested elements are rendered in 3D space
+			</p>
+			<p>
+				transition<br>
+				A shorthand property for setting the four transition properties
+			</p>
+			<p>
+				transition-delay<br>
+				Specifies when the transition effect will start
+			</p>
+			<p>
+				transition-duration<br>
+				Specifies how many seconds or milliseconds a transition effect takes to complete
+			</p>
+			<p>
+				transition-property<br>
+				Specifies the name of the CSS property the transition effect is for
+			</p>
+			<p>
+				transition-timing-function<br>
+				Specifies the speed curve of the transition effect
+			</p>
+			<p>
+				unicode-bidi<br>
+				Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document
+			</p>
+			<p>
+				user-select<br>
+				Specifies whether the text of an element can be selected
+			</p>
+			<p>
+				vertical-align<br>
+				Sets the vertical alignment of an element
+			</p>
+			<p>
+				visibility<br>
+				Specifies whether or not an element is visible
+			</p>
+			<p>
+				white-space<br>
+				Specifies how white-space inside an element is handled
+			</p>
+			<p>
+				width<br>
+				Sets the width of an element
+			</p>
+			<p>
+				word-break<br>
+				Specifies line breaking rules for non-CJK scripts
+			</p>
+			<p>
+				word-spacing<br>
+				Increases or decreases the space between words in a text
+			</p>
+			<p>
+				word-wrap<br>
+				Allows long, unbreakable words to be broken and wrap to the next line
+			</p>
+			<p>
+				z-index<br>
+				Sets the stack order of a positioned element
+			</p>
+		</article>
+		<hr>
+		<footer>
+			<p>This document was created by Cole A. Compton on 2/7/2018</p>
+		</footer>
+	</body>
+</html>

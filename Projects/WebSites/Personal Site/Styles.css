@@ -1,0 +1,35 @@
+body{
+    background-color: #333333;
+}
+#page{
+    background-color: #666666;
+    height: 600px;
+    margin: 0 auto;
+    width: 80%;
+}
+nav{
+    background-color: #555555;
+}
+nav ul{
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: silver;
+    display: block;
+    padding: 20px 25px 20px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: grey;
+}
+.active{
+    background-color: #555555;
+    background-image: url(ActiveLinkBanner.png);
+    background-position: center bottom;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,19 @@
+<p class="a">Browser Support</p>
+
+	<div>
+	
+		<ul>
+		
+			<li>Chrome: </li>
+		
+			<li>Internet Explorer: </li>
+		
+			<li>Firefox: </li>
+		
+			<li>Safari: </li>
+		
+			<li>Opera: </li>
+	
+		</ul>
+
+	</div>

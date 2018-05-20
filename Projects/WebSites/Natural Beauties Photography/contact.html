@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Natural Beauties Photography</title>
+		<link href="css/styles.css" type="text/css" rel="stylesheet">
+		<script src="js/html5shiv.js"></script>
+		<script src="js/html5shiv-printshiv.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Natural Beauties</h1>
+				<h2>Photography</h2>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="prices.html">Prices</a></li>
+					<li class="active"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h3>Contact</h3>
+				<p>Fill out the following form or email <a href="mailto:contact@naturalbeauties.com">contact@naturalbeauties.com</a> in order to contact Natural Beauties Photography.</p>
+				<form method="post" action="contact_script.php">
+					<p>
+						<label for="first_name">First Name</label>
+						<input type="text" name="first_name" placeholder="John" required="required" pattern="[a-zA-Z]" autofocus/>
+					</p>
+					<p>
+						<label for="last_name">Last Name</label>
+						<input type="text" name="last_name" placeholder="Smith" required="required" pattern="[a-zA-Z]"/>
+					</p>
+					<p>
+						<label for="email">Email</label>
+						<input type="text" name="email" placeholder="johnsmith@gmail.com" required="required"/>
+					</p>
+					<p>
+						<label for="phone">Phone</label>
+						<input type="text" name="phone" placeholder="(850)689-7177" required="required" pattern="[\([0-9]{3}\)[0-9]{3}-[0-9]{4}]"/>
+					</p>
+					<p>
+						<label for="photo_type">Photo Type</label>
+						<select name="photo_type">
+							<option value="">Select One</option>
+							<option value="senior">Senior Portraits</option>
+							<option value="engagement">Engagement Shoots</option>
+							<option value="newborn">Newborn</option>
+							<option value="family">Family Portraits</option>
+							<option value="party">Parties</option>
+							<option value="weddings">Weddings</option>
+						</select>
+					</p>
+					<p>
+						<input type="submit" value="Contact Us" class="button"/>
+					</p>
+				</form>
+			</main>
+			<aside>
+				<section>
+					<h4>Location</h4>
+					<address>
+						374 Hanson Blvd<br>
+						Blueport, Michigan 89751
+					</address>
+				</section>
+				<section>
+					<h4>Hours</h4>
+					<ul>
+						<li>S 8:00am-8:00pm</li>
+						<li>M 12:00pm-8:00pm</li>
+						<li>T Closed</li>
+						<li>W Closed</li>
+						<li>R Closed</li>
+						<li>F 12:00pm-8:00pm</li>
+						<li>S 8:00am-8:00pm</li>
+					</ul>
+				</section>
+			</aside>
+			<footer>
+				<p>Natural Beauties Photography - &copy; 2010 All Rights Reserved</p>
+			</footer>
+		</div>
+	</body>
+</html>

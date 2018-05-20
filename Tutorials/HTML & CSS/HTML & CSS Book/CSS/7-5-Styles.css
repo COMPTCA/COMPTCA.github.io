@@ -1,0 +1,7 @@
+body{
+	padding: 20px;
+}
+p{
+	background-image: url(Images/pattern.gif);
+	color: white;
+}

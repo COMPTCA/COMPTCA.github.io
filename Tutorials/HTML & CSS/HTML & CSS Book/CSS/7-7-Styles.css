@@ -1,0 +1,6 @@
+body{
+	background-attachment: fixed;
+	background-image: url(Images/tulip.gif);
+	background-repeat: no-repeat;
+	padding: 20px;
+}

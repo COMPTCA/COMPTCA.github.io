@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Template.html</title>
+		<link href="../CSS/Styles.css" type="text/css" rel="stylesheet">
+		<embed src="../JS/html5shiv-printshiv.js">
+		<embed src="../JS/html5shiv.js">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="../CSS/tablet.css" rel="stylesheet" media="screen and (max-width: 1024px)"/>
+		<link href="../CSS/mobile.css" rel="stylesheet" media="screen and (max-width: 600px)"/>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<img src="../Habitat for Humanity Content/images/logo.png" alt="Habitat for Humanity logo"/>
+				<div class="floatright">
+					<p>Change your location</p>
+					<ul>
+						<li><a href="http://www.habitat.org/ame">Africa/Middle East</a></li>
+						<li><a href="http://www.habitat.org/asiapacific">Asia/Pacific</a></li>
+						<li><a href="http://www.habitat.org/eurasia">Europe/Central Asia</a></li>
+						<li><a href="http://habitat.org/lac_eng">Latin America/Caribbean</a></li>
+						<li><a href="Index.html">United States/Canada</a></li>
+					</ul>
+				</div>
+			</header>
+			<nav>
+				<h4>Simple, decent, affordable housing</h4>
+				<ul>
+					<li><a href="Index.html">Home</a></li>
+					<li><a href="about.html">Learn more</a></li>
+					<li><a href="volunteer.html">Volunteer</a></li>
+					<li><a href="http://www.habitat.org/gov">Advocate</a></li>
+					<li><a href="donate.html">Donate</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h1>Donate Online</h1>
+				<p>Thank you for considering a contribution to Habitat for Humanity. Your contribution will help fund building homes and will foster a spirit of community and hope!</p>
+				<form method="post" action="donate_process.php">
+					<fieldset legend="Donor Information" label="first_name">
+						<p>
+							<label>
+								First Name
+							</label>
+							<input type="text" name="first_name" id="first_name" placeholder="John" pattern="[a-zA-Z]+">
+						</p>
+						<p>
+							<label for="last_name">
+								Last Name
+							</label>
+							<input type="text" name="last_name" id="last_name" placeholder="Smith" pattern="[a-zA-Z]+">
+						</p>
+						<p>
+							<label for="address">
+								Address
+							</label>
+							<input type="text" name="address" id="address" placeholder="121 Habitat Street">
+						</p>
+						<p>
+							<label for="city">
+								City
+							</label>
+							<input type="text" name="city" id="city" placeholder="Americus">
+						</p>
+						<p>
+							<label for="state">
+								State
+							</label>
+							<select>
+								<option value="AL">Alabama</option>
+								<option value="FL">Florida</option>
+								<option value="GA">Georgia</option>
+							</select>
+						</p>
+						<p>
+							<label for="zip">
+								Zip
+							</label>
+							<input type="number" name="zip" id="zip" placeholder="31709">
+						</p>
+						<p>
+							<input type="checkbox" name="publish" id="publish" class="checkbox">
+							<label for="publish" class="checkbox_label">
+								Please do not publish my name. I wish to remain anonymous.
+							</label>
+						</p>
+						<p>
+							<label for="phone">
+								Phone
+							</label>
+							<input type="telephone" name="phone" id="phone" placeholder="(229) 924-6935" pattern="\)[0-9]{3}\)[0-9]{3}-[0-9]{4}">
+						</p>
+						<p>
+							<label for="email">
+								Email
+							</label>
+							<input type="email" name="email" id="email" placeholder="john_smith@yahoo.com">
+						</p>
+					</fieldset>
+					<fieldset legend="Donation Information">
+						<p>
+							I would like to make a donation in the amount of:
+						</p>
+						<p>	
+							<label for="preset_a1">$500</label>
+							<input type="radio" name="preset_amount" id="preset_a1" value="500">
+							<br/>
+							<label for="preset_a2">$100</label>
+							<input type="radio" name="preset_amount" id="preset_a2" value="100">
+							<br/>
+							<label for="preset_a3">$50</label>
+							<input type="radio" name="preset_amount" id="preset_a3" value="50">
+							<br/>
+							<label for="preset_a4">$20</label>
+							<input type="radio" name="preset_amount" id="preset_a4"  value="20">
+						</p>
+						<details>
+							<summary>
+								<label for="preset_other">Other</label>
+								<input type="radio" name="preset_amount" id="preset_other" value="other">
+								<label for="custom_amount">Enter Amount</label>
+								<input type="number" name="custom_amount" id="custom_amount" placeholder="200" min-value="1">
+							</summary>
+						</details>
+					</fieldset>
+					<p> 
+						<input type="submit" value="Donate" class="submit">
+					</p>
+				</form>
+			</main>
+			<aside>
+				<section>
+					<h4>Build Your Community</h4>
+					<a href="http://www.habitat.org/youthprograms/ages_14_25_default.aspx"><img src="../Habitat for Humanity Content/images/yp3_14to25.jpg" alt="Habitat for Humanity logo"/></a>
+					<p><a href="http://www.habitat.org/youthprograms/ages_14_25_default.aspx">Start today</a> to become the leaders of Habitat tomorrow!</p>
+				</section>
+				<section>
+					<h4>Come see us</h4>
+					<p>Call us at <a href="tel:18002678910">1-800-267-8910</a>, or visit the Habitat for Humanity main office is at 121 Habitat street,
+					Americus, GA 31709. We are in the office on the following days and times.</p>
+					<table>
+						<tr>
+							<th>Day</th>
+							<th>Hours</th>
+						</tr>
+						<tr>
+							<td>Sunday</td>
+							<td>Closed</td>
+						</tr>
+						<tr>
+							<td>Monday</td>
+							<td>8:00am - 5:00pm</td>
+						</tr>
+						<tr>
+							<td>Tuesday</td>
+							<td>8:00am - 8:00pm</td>
+						</tr>
+						<tr>
+							<td>Wednesday</td>
+							<td>8:00am - 5:00pm</td>
+						</tr>
+						<tr>
+							<td>Thursday</td>
+							<td>8:00am - 8:00pm</td>
+						</tr>
+						<tr>
+							<td>Friday</td>
+							<td>8:00am - 8:00pm</td>
+						</tr>
+						<tr>
+							<td>Saturday</td>
+							<td>8:00am - 12:00pm</td>
+						</tr>
+					</table>
+				</section>
+			</aside>
+			<footer>
+				<p><a href="about.html">Learn About Habitat</a> | <a href="http://www.habitat.org/intl/">Where We Build</a> | <a href="donate.html">Support Habitat</a> | <a href="http://www.habitat.org/stories_multimedia/">Stories and Multimedia</a></p>
+				<br/>
+				<br/>
+				<p>&copy; 2014 Habitat for Humanity&reg; International. All rights reserved."Habitat for Humanity&reg;" is a 
+				registered service mark owned by Habitat for Humanity International. Habitat&reg; is a service mark of 
+					Habitat for Humanity International.</p>
+			</footer>
+		</div>
+	</body>
+</html>

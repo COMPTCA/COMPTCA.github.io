@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    /* Removing margin from body removes whitespace around entire page */
+}
+.small_box{
+    border: none;
+    /* display: inline; */ /* inline="same line / next to each other" */
+    display: block; /*block="different lines / one below the other" */
+    margin: 0;
+    padding: 0;
+    width: 50px;
+}
+#Pic1{
+    /* padding: 10px 5px 20px 35px; */
+    padding-bottom: 20px;
+}
+#Pic2{
+    padding-top: 20px;
+}
+#Pic3{
+    margin-bottom: 20px;
+}
+#Pic4{
+    margin-top: 20px;
+}

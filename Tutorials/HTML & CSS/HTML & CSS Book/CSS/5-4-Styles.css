@@ -1,0 +1,27 @@
+body{
+    color: #111111;
+    font-family: Arial, Verdana. sans-serif;
+}
+table{
+    width: 600px;
+}
+th, td{
+    padding: 7px 10px 10px 10px;
+}
+th{
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    font-size: 90%;
+    letter-spacing: .1em;
+    text-align: left;
+    text-transform: uppercase;
+}
+tr.even{
+    background-color: #efefef;
+}
+tr:hover{
+    background-color: #c3e6ef;
+}
+.money{
+    text-align: right;
+}

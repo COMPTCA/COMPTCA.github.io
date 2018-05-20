@@ -1,0 +1,15 @@
+.show-bkg{
+    background-color: grey;
+}
+#target-left{
+    background-color: red;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#target-right{
+    background-color: blue;
+    float: right;
+    height: 200px;
+    width: 200px;
+}

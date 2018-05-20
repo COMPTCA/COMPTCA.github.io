@@ -1,0 +1,268 @@
+/* Page Layout */
+@font-face{
+	font-family: oregonfont;
+	src: url('../Fonts/Oregon LDO.ttf');
+}
+@font-face{
+	font-family: oregonfontbold;
+	src: url('../Fonts/Oregon LDO Bold.ttf');
+}
+body{
+	font-family: oregonfont, sans-serif;
+	font-size: 100%;
+	line-height: 140%;
+}
+nav, aside{
+	font-size: 85%;
+	text-align: center;
+	padding: 1%;
+	width: 17%;
+}
+footer{
+	font-size: 75%;
+	text-align: center;
+	border-top: 5px solid #bbbbbb;
+	margin-top: 0;
+	padding: 0;
+	clear: both;
+}
+header, footer{
+	background-color:#ffffff;
+}
+#wrapper{
+	background: url("../Habitat for Humanity Content/Images/globe.png"), 60%, linear-gradient(to right, #bbbbbb 0%, #d8d8d8 10%, #bbbbbb 20%, #ffffff 20%, #ffffff 80%, #bbbbbb 80%, #d8d8d8 90%, #bbbbbb 100%), 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	border: 5px solid #bbbbbb;
+	width: 90%;
+	margin: auto;
+	overflow: auto;
+}
+header{
+	border-bottom: 5px solid #bbbbbb;
+	min-height: 65px;
+	padding: 1%;
+}
+nav{
+	padding-right: 1.5%;
+	float: left;
+}
+main{
+	padding: 2%;
+	margin-left:0.5%;
+	width: 56%;
+	float: left;
+}
+aside{
+	padding-left: 1.5%;
+	float: right;
+}
+/* Header Content */
+header div{
+	color: #ffffff;
+	font-family: oregonfont, sans-serif;
+	font-size: 85%;
+	font-weight: bold;
+	text-align: center;
+	background: linear-gradient(to bottom, #74C76D, #43983A);
+	border: 2px solid #ffffff;
+	max-height: 20px;
+	padding: 0.5% 3%;
+	width: 15%;
+	cursor: pointer;
+	display: block;
+	border-radius: 7px;
+	box-shadow: 2px 2px 2px #666666;
+}
+header ul{
+	text-align: left;
+	margin: 2.5% 0;
+	padding: 0;
+	overflow: auto;
+	position: relative;
+	z-index: 9999;
+	display: none;
+	list-style-type: none;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	background: linear-gradient(to bottom, #74C76D, #42983A);
+	border: 2px solid #ffffff;
+	margin: 2%;
+	padding: 1% 3%;
+	display: block;
+	border-radius: 7px;
+	box-shadow: 2px 2px 2px #666666;
+}
+header p{
+	margin: 0;
+}
+header img{
+	float: left;
+	position: relative;
+	animation-name: logoanimation;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+header div:hover ul{
+	display: block;
+}
+header a:hover{
+	background: linear-gradient(to bottom, #0075CC, #005596);
+}
+header div:hover{
+	background: linear-gradient(to bottom, #0075CC, #005596);
+}
+@keyframes logoanimation{
+	from {left: 0; top: -100px;}
+	to {left: 0; top: 0px;}
+}
+/* Nav Content */
+nav li{
+	text-align: left;
+	margin: 4.5% 0;
+}
+nav a{
+	color: #ffffff;
+	text-decoration: none;
+	background: linear-gradient(to bottom, #0075CC, #005596);
+	border: 2px solid #ffffff;
+	padding: 1% 3%;
+	display: block;
+	border-radius: 7px;
+	box-shadow: 2px 2px 2px #666666;
+}
+nav h4, aside h4{
+	margin-top: 0;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav a:hover{
+	background: linear-gradient(to bottom, #74C76D, #42983A);
+}
+/* Aside Content */
+aside table{
+	text-align: left;
+}
+aside th{
+	text-align: center;
+}
+aside section{
+	margin-bottom: 25%;
+}
+/* Footer Content */
+footer a{
+	color: #74C76D;
+}
+footer p{
+	margin: 0;
+}
+/* Main Content */
+h1, h2, h3, h4, h5, h6{
+	font-family: oregonfontbold, sans-serif;
+}
+article h1{
+	font-size: 200%;
+}
+main h1{
+	color: #51B948;
+	text-shadow: 2px 2px 5px #cccccc; /* Typography TU */
+	margin: 0;
+}
+img{
+	max-width: 100%;
+}
+.floatright{
+	margin: 1%;
+	float: right;
+	clear: right;
+}
+/* Home Page Content */
+#build_vid{
+	height: 210px;
+	transform: rotate(15deg);
+	transition: transform 2s, height 2s;
+}
+#mission_img{
+	position: relative;
+	top: -3%;
+	transform: rotate(345deg);
+}
+#build_vid:hover{
+	height: 420px;
+	transform: rotate(0deg);
+	transition: transform 2s, height 2s;
+}
+/* About Page Content */
+.columns{
+	text-align: justify;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 40px;
+	-moz-column-gap: 40px;
+	column-gap: 40px;
+	-webkit-column-rule: 1px dotted #0075cc;
+	-moz-column-rule: 1px dotted #0075cc;
+	column-rule: 1px dotted #0075cc;
+}
+/* Youth Programs Page Content */
+.youth figure{
+	text-align: justify;
+	margin: 1%;
+	width: 270px;
+}
+.youth figure:first-child{
+	margin-left: 0;
+}
+.youth{
+	display: flex;
+	flex-wrap: wrap;
+}
+/* Donate Page Content */
+legend{
+	color:#005596;
+	padding: 0 1%;
+}
+summary: :-webkit-details-marker{
+	color: #51B948;
+}
+.submit{
+	color: #ffffff;
+	background: linear-gradient(to bottom, #0075CC, #005596);
+	border: 2px solid #ffffff;
+	padding: 1% 3%;
+	border-radius: 7px;
+	box-shadow: 2px 2px 2px #666666;
+}
+.columns h1{
+	-webkit-column-span: all;
+	-moz-column-span: all;
+	column-span: all;
+}
+.checkbox{
+	margin-left: 5%;
+	width: 3%;
+}
+.checkbox_label{
+	width: 72%;
+}
+fieldset{
+	margin-bottom: 3%;
+	border-radius: 7px;
+}
+input, select{
+	padding: 0.5%;
+}
+label{
+	  width: 20%;
+}
+.submit:hover{
+	background: linear-gradient(to bottom, #74C76D, #42983A);
+	cursor: pointer;
+}

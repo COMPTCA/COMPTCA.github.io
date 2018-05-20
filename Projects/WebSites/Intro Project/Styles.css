@@ -1,0 +1,65 @@
+body
+{
+	background-color:#006400;
+	color:#00ff00;
+	text-align:center;
+	font-family:serif;
+	font-size:100%;
+}
+
+img
+{
+	margin-top:15%;
+}
+
+a
+{
+	color:#00ff00;
+}
+
+hr
+{
+	border-color:#006400;
+}
+
+ins
+{
+	text-decoration:none;
+}
+
+mark
+{
+	background-color:#005000;
+	color:#00ff00;
+}
+
+aside
+{
+	float:left;
+	height:650px;
+	border:solid;
+}
+
+article
+{
+	width:75%;
+	float:right;
+}
+
+nav
+{
+	width:75%;
+	float:right;
+}
+
+header
+{
+	width:75%;
+	float:right;
+}
+
+footer
+{
+	width:75%;
+	float:right;
+}

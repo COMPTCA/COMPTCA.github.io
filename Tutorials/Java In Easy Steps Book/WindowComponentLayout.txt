@@ -1,0 +1,15 @@
+Window Component Layouts:
+
+BorderLayout - Places North, South, East, West, Center (The Content Panel Default)
+
+BoxLayout - Places in a single row or column
+
+CardLayout - Places different components in a specified area at different times
+
+FlowLayout - Places left to right in a wrapping line (The JPanel Default)
+
+GridBagLayout - Places in a grid of rows and columns
+
+GroupLayout - Places horizontal and vertically
+
+SpringLayout - Places by relative spacing

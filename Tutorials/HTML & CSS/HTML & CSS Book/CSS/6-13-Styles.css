@@ -1,0 +1,34 @@
+*{
+    color: #665544;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+}
+body{
+    margin: 0 auto;
+    width: 90%;
+}
+#content{
+    overflow: auto;
+}
+#nav, #feature, #footer{
+    margin: 1%;
+}
+.column1, .column2, .column3{
+    background-color: #efefef;
+    float: left;
+    margin: 1%;
+    width: 31.3%;
+}
+li{
+    display: inline;
+    padding: .5em;
+}
+#nav, #footer{
+    background-color: #efefef;
+    padding: .5em 0;
+}
+#feature, .article{
+    background-color: #efefef;
+    height: 10em;
+    margin-bottom: 1em;
+}

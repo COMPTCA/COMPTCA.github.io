@@ -1,0 +1,27 @@
+*{
+    /* Targets all elements on a page */
+}
+h1, h2{
+    /* Targets the <h1>, <h2>, and <h3> elements */
+}
+.note{
+    /* Targets all elements whose class attribute has a value of note */
+}
+p.note{
+    /* Targets all <p> elements whose class attribute has a value of note */
+}
+#introduction{
+    /* Targets the element whose id attrubute has a value of introduction */
+}
+li>a{
+    /* Targets all <a> elements that are children of an <li> element */
+}
+p a{
+    /* Targets all <a> elements that sit inside a <p> element */
+}
+h1+p{
+    /* Targets the first <p> element after an <h1> element */
+}
+h1~p{
+    /* Targets all <p> elements that sit inside an <h1> element (This is true for all <h1> elements on a page) */
+}

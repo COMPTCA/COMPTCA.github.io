@@ -1,0 +1,5 @@
+Compile
+	Javac ScriptName.java
+
+Run
+	Java ClassName

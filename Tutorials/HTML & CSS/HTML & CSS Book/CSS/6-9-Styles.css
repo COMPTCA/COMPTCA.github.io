@@ -1,0 +1,19 @@
+body{
+    color: #665544;
+    font-family: Arial, Verdana, sans-serif;
+    width: 750px;
+}
+p{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 230px;
+}
+.clear{
+    clear: left;
+}
+div{
+    border: 1px solid #665544;
+    overflow: auto;
+    width: 100%;
+}

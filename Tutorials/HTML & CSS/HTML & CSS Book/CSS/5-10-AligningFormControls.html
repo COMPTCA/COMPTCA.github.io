@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aligning Form Controls</title>
+        <link href="5-10-Styles.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <form action="http://www.example.com" method="post">
+            <div>
+                <label for="name" class="title">Name:</label>
+                <input type="text" name="name" id="name"/>
+            </div>
+            <div>
+                <label for="email" class="title">Email:</label>
+                <input type="email" name="email" id="email"/>
+            </div>
+            <div class="radio-buttons">
+                <span class="title">Gender:</span>
+
+                <input type="radio" name="gender" value="M" id="male"/>
+                <label for="male">M</label>
+
+                <input type="radio" name="gender" value="F" id="female"/>
+                <label for="female">F</label>
+
+                <br/>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Register" id="submit"/>
+            </div>
+		</form>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+a.button{
+    background-image: url(Images/button-sprite.jpg);
+    display: inline-block;
+    height: 36px;
+    text-indent: -9999px;
+}
+a#add-to-basket{
+    background-position: 0 0;
+    width: 174px;
+}
+a#framing-options{
+    background-position: -175px 0;
+    width: 210px;
+}
+a#add-to-basket:hover{
+    background-position: 0 -40px;
+}
+a#framing-options:hover{
+    background-position: -175px -40px;
+}
+a#add-to-basket:active{
+    background-position: 0 -80px;
+}
+a#framing-options:active{
+    background-position: -175px -80px;
+}

@@ -1,0 +1,43 @@
+article a, nav li a, footer li a, body{
+	color: silver;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+article a:hover{
+	color: #666666;
+}
+article ul{
+	margin: 0;
+	padding: 0;
+}
+article ul{
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+body{
+	background-color: black;
+}
+header{
+	background-color: #666666;
+}
+nav, footer{
+	background-color: #333333;
+}
+article li, footer ul, nav ul, .a{
+	list-style-type: none;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+	text-align: left;
+}
+nav li a, footer li a{
+	display: block;
+	float: left;
+}
+nav li a, footer li a, article, header{
+	padding: 26px;
+}
+nav li a:hover, footer li a:hover, article{
+	background-color: grey;
+}

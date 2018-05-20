@@ -1,0 +1,268 @@
+/*Page Styles*/
+@font-face{
+	font-family: ZnikomitNo24;
+	src: url(../fonts/ZnikomitNo24.otf);
+}
+@font-face{
+	font-family: ZnikomitNo24Thin;
+	src: url(../fonts/ZnikomitNo24Thin.otf);
+}
+body{
+	background-color: #FFFDF4;
+	background-image: url('../img/header_bg.gif'), url('../img/footer_bg.gif');
+	background-repeat: repeat-x, repeat-x;
+	background-position: top left, bottom left;
+	color: #372412;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 2em;
+	margin: 0;
+}
+a{
+	color: #724B25;
+}
+h1,h2,h3,h4,h5,h6{
+	border-bottom: 1px dotted #372412;
+	font-family: ZnikomitNo24Thin, serif;
+	margin: 0;
+}
+h1{
+	font-size: 2.5em;
+}
+h2{
+	font-size: 2.25em;
+}
+h3{
+	font-size: 1.75em;
+}
+h4{
+	font-size: 1.25em;
+}
+img{
+	border: 2px solid #FFF3BO;
+	border-radius: 25px;
+	box-shadow: 1px 1px 5px #372412;
+	height: auto;
+	max-width: 100%;
+}
+#wrapper{
+	margin: auto;
+	max-width: 900px;
+	min-width: 305px;
+	padding: 0 20px 0 20px;
+}
+/*Header Styles*/
+header{
+	padding: 22px;
+	text-align: center;
+}
+header h1, header h2{
+	color: #372412;
+	border: 0;
+	font-family: ZnikomitNo24, serif;
+	line-height: 1.2em;
+	margin: 0;
+	text-shadow: 1px 1px 1px #EDBE5F;
+}
+/*Nav Styles*/
+nav{
+	font-size: 0.8em;
+	margin-bottom: 20px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	text-align: center;
+}
+nav a{
+	color: #FFFDF4;
+	padding: 12px 30px 12px 30px;
+	margin: 15px;
+	text-decoration: none;
+}
+nav .active a{
+	background-image: linear-gradient(to bottom, #372412 0%, #724B25 50%, #372412 100%);
+	border: 2px solid #FFF3B0;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #372414;
+}
+/*Main Styles*/
+main, aside{
+	margin-bottom: 20px;
+}
+main{
+	float: left;
+	text-align: justify;
+	width: 600px;
+}
+/*Sidebar Styles*/
+aside{
+	font-size: 0.9em;
+	float: right;
+	width: 200px;
+}
+aside section{
+	margin-bottom: 30px;
+}
+aside section h4{
+	text-align: center;
+}
+aside address{
+	text-align: center;
+}
+aside ul{
+	list-style-image: url('../img/list_marker.gif');
+	margin: 0;
+}
+/*Footer Styles*/
+footer{
+	color: #FFFDF4;
+	clear: both;
+	font-size: 0.75em;
+	overflow: auto;
+	text-align: center;
+}
+footer p{
+	margin: 0;
+}
+/*Content Styles*/
+@keyframes showcase_animation{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.showcase{
+	animation-name: showcase_animation;
+	animation-duration: 8s;
+	animation-iteration-count: 1;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.floatright{
+	float: right;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+#gallery{
+	display: flex;
+	flex-wrap: wrap;
+}
+#gallery figure{
+	transform: rotate(2deg);
+	margin: 10px;
+}
+#gallery figure:nth-child(even){
+	transform: rotate(-2deg);
+}
+#gallery figure:hover{
+	transform: rotate(0deg);
+	transform: scale(1,1);
+	transition-property: transform;
+	transition-duration: 1s;
+}
+#gallery figcaption{
+	background-color: #372412;
+	border-bottom: 2px solid #FFF3B0;
+	border-bottom-left-radius: 25px;
+	border-left: 2px solid #FFF3B0;
+	border-right: 2px solid #FFF3B0;
+	color: #FFFDF4;
+	opacity: 0.4;
+	position: relative;
+	top: -45px;
+	text-align: center;
+}
+#prices{
+	width: 100%;
+}
+label{
+	display: block;
+	float: left;
+	width: 200px;
+}
+input, select{
+	border-radius: 7px;
+	padding: 4px;
+	width: 200px;
+}
+select{
+	width: 212px;
+}
+.button{
+	background-image: linear-gradient(to bottom, #372412 0%, #735B25 50%, #372412 100%);
+	border: 2px solid #FFF3B0;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #372414;
+	color: #FFFFFF;
+	padding: 5px 10px 5px 10px;
+	width: inherit;
+}
+.button:hover{
+	cursor: pointer;
+}
+/*Responsive Styles*/
+@media screen and (max-width: 870px){
+	nav, footer{
+		font-size: 0.7em;
+	}
+	nav a{
+		padding: 12px 12px 12px 12px;
+		margin: 10px;
+	}
+	main, aside{
+		float: none;
+		width: 100%;
+	}
+	aside{
+		margin-top: 60px;
+	}
+	aside h4{
+		text-align: left !important;
+	}
+	aside address{
+		text-align: left;
+	}
+}
+@media screen and (max-width: 535px){
+	header{
+		padding: 32px 11px 32px 11px;
+	}
+	header h1{
+		font-size: 2em;
+	}
+	header h2{
+		font-size: 1.75em;
+	}
+	nav a{
+		padding: 12px;
+		padding-left: 5px;
+		padding-right: 5px;
+		margin: 5px;
+	}
+	#gallery figure, #gallery figure:nth-child(even){
+		transform: rotate(0);
+	}
+	#gallery figure:hover{
+		transform: scale(1);
+	}
+}
+@media screen and (max-width: 360px){
+	header{
+		padding: 36px 6px 36px 6px;
+	}
+	header h1{
+		font-size: 1.75em;
+	}
+	header h2{
+		font-size: 1.5em;
+	}
+	nav a{
+		margin: 2px;
+	}
+}

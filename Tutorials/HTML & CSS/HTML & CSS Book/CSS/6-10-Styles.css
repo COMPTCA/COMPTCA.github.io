@@ -1,0 +1,15 @@
+body{
+    color: #665544;
+    font-family: Arial, Verdana, sans-serif;
+    width: 1000px;
+}
+.column1of2{
+    float: left;
+    margin: 10px;
+    width: 620px;
+}
+.column2of2{
+    float: left;
+    margin: 10px;
+    width: 300px;
+}

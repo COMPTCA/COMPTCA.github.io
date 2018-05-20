@@ -1,0 +1,30 @@
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.slider{
+    background-color: grey;
+
+    border-bottom: black 2px solid;
+    border-right: black 2px solid;
+    border-top: black 2px solid;
+
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+    height: 30px;
+    width: 0;
+
+    line-height: 30px;
+    overflow: hidden;
+    padding-left: 15px;
+    position: absolute;
+    top: 200px;
+
+    -webkit-transition: width 2s, background-color 5.5s;
+    -webkit-transition-timing-function: linear;
+}
+.slider:hover{
+    width: 80px;
+    background-color: rgb(200, 100, 100);
+}

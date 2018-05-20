@@ -1,0 +1,23 @@
+body {
+    color: #111111;
+    font-family: Arial, Verdana, sans-serif;
+}
+th {
+    border-bottom: 1px solid #0088dd;
+    color: #0088dd;
+    font-weight: normal;
+    text-align: left;
+}
+td {
+    line-height: 1.4em;
+    min-width: 150px;
+    min-height: 200px;
+    vertical-align: top;
+}
+td.description{
+    margin: 0;
+    max-width: 650px;
+    min-width: 450px;
+    padding: 5px;
+    text-align: left;
+}

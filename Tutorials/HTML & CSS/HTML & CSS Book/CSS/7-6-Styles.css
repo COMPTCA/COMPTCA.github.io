@@ -1,0 +1,8 @@
+body{
+	background-image: url(Images/header.gif);
+	background-repeat: repeat-x;
+	padding: 20px;
+}
+h1{
+	color: white;
+}

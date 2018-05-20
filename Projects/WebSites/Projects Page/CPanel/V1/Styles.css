@@ -1,0 +1,38 @@
+body{
+	background-color: #006400;
+	color: #00ff00;
+	text-align: center;
+}
+hr{
+	border-color: #00ff00;
+}
+nav ul{
+	background-color: #003000;
+	border: 1px solid #000;
+	overflow: hidden;
+	padding: 0;
+}
+nav ul li{
+	background-color: #003300;
+	border: 1px solid #006400;
+	display: block;
+	float: left;
+	list-style-type: none;
+	padding: 15px;
+	text-align: center;
+
+}
+nav ul li a{
+	color: #00ff00;
+	text-decoration: none;
+}
+article p{
+	text-align: left;
+}
+article ul li{
+	list-style-position: inside;
+	text-align: left;
+}
+article ul li a{
+	color: #00ff00;
+}

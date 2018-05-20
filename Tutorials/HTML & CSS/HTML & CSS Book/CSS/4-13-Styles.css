@@ -1,0 +1,10 @@
+p.one{
+    border: 10px solid;
+    border-image: url(Images/dots.gif) 11 11 11 11 stretch;
+    padding: 30px;
+}
+p.two{
+    border: 10px solid;
+    border-image: url(Images/dots.gif) 11 11 11 11 round;
+    padding: 30px;
+}

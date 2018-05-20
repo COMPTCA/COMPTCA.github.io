@@ -1,0 +1,45 @@
+body{
+    background-color: #efefef;
+    font-family: "Courier New" Courier, monospace;
+    font-size: 80%;
+    letter-spacing: .15em;
+}
+#page{
+    background-color: #ffffff;
+    border: 4px double #000;
+    margin: 10px auto;
+    max-width: 940px;
+    min-width: 720px;
+    padding: 20px;
+}
+#logo{
+    margin: 10px auto 25px auto;
+    width: 150px;
+}
+ul{
+    border-bottom: 1px solid #000;
+    border-top: 2px solid #000;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    width: 570px;
+}
+li{
+    display: inline;
+    margin: 0 3px;
+}
+p{
+    font-weight: normal;
+    margin: 20px auto;
+    text-align: center;
+    width: 600px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover, a.active{
+    background-color: #ffffff;
+    color: #cc3333;
+}

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Body Styles*/
+body{
+	background-color: black;
+	font-size: 110%;
+	color: silver;
+}
+/*Nav Styles*/
+nav{
+	background-color: #333333;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li{
+	float: left;
+}
+nav li a{
+	display: block;
+	color: silver;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav li a:hover{
+	background-color: grey;
+}
+/*Header Styles*/
+header{
+	text-align: center;
+	padding: 14px 16px;
+	height: 50px;
+	margin-top: 5px;
+	background-color: #666666;
+}
+/*Article Styles*/
+article{
+	text-align: center;
+	padding: 14px 16px;
+	height: 494px;
+	margin-top: 5px;
+	background-color: #666666;
+}
+article a{
+	text-decoration: none;
+	color: silver;
+}
+article a:hover{
+	color: grey;
+}
+/*Article Id Tags*/
+/*Index Page Languages*/
+#languages ul li{
+	list-style-position: inside;
+	text-align: left;
+}
+/*Pages h1-h109 Attr*/
+#bs{
+	text-align: left;
+}
+#subbs ul li{
+	list-style-position: inside;
+	text-align: left;
+}
+/*Footer Styles*/
+footer{
+	background-color: #333333;
+	margin-top: 5px;
+}
+footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+footer li{
+	float: left;
+}
+footer li a{
+	display: block;
+	color: silver;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+footer li a:hover{
+	background-color: grey;
+}
+hr{
+	border-color: grey;
+	border-style: inset;
+}

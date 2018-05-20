@@ -1,0 +1,17 @@
+p{
+    background-color: green;
+    color: white;
+    height: 100px;
+    width: 100px;
+    -webkit-animation: colorChange 10s;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes colorChange{
+    /*
+        from {background-color: aqua; color: black;}
+        to {background-color: green; color: white;}
+    */
+    0% {background-color: orange; color: black}
+    50% {background-color: aqua; color: grey;}
+    100% {background-color: green; color: white;}
+}

@@ -1,0 +1,22 @@
+#scroll_box{
+    border: none;
+    height: 150px;
+    margin: 0;
+    outline: 2px dashed red;
+    overflow: scroll;
+    padding: 0;
+    width: 150px;
+}
+#image{
+
+}
+#text{
+    border: none;
+    height: 200px;
+    margin: 0;
+    outline: 2px dashed red;
+    overflow: scroll;
+    padding: 0;
+    /* width: 20% */
+    width: 200px;
+}

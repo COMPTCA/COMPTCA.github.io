@@ -1,0 +1,3 @@
+javac ScriptName.java
+
+java ClassName ArgumentName

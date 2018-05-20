@@ -1,0 +1,31 @@
+header div{
+	display: none;
+}
+#mission_img{
+	float: none;
+	transform: none;
+}
+#build_vid{
+	float: none;
+	transform: none;
+	transition: none;
+}
+build_vid:hover{
+	height: 210px;
+	transition: none;
+}
+table{
+	border-collapse: collapse;
+}
+tr{
+	border-bottom: 1px solid #000000;
+}
+tr:first-child. tr:last-child{
+	border-bottom: none;
+}
+td{
+	display: block;
+}
+th:first-child{
+	display: none;
+}

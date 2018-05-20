@@ -1,0 +1,17 @@
+body{
+    color: #111111;
+    font-family: Arial, Verdana, sans-serif;
+}
+h2, p{
+    font-size: 90%;
+    line-height: 1.2em;
+    width: 400px;
+}
+h2{
+    border-bottom: 1px solid #0088dd;
+    color: #0088dd;
+}
+p{
+    max-height: 75px;
+    min-height: 10px;
+}

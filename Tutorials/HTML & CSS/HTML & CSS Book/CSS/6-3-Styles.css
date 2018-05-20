@@ -1,0 +1,16 @@
+body{
+    color: #665544;
+    font-family: Arial, Verdana, sans-serif;
+    width: 750px;
+}
+h1{
+    background-color: #efefef;
+    left: 500px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 450px;
+}
+p{
+    width: 450px;
+}

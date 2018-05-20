@@ -1,0 +1,10 @@
+#gradient{
+    background-color: #66cccc;
+    background-image: url(Images/fallback-image.png);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#66cccc), to(#336666));
+    background-color: -webkit-linear-gradient(#336666, #66cccc);
+    background-image: -moz-linear-gradient(#336666, #66cccc);
+    background-image: -o-linear-gradient(#336666, #66cccc);
+    height: 150px;
+    width: 300px;
+}

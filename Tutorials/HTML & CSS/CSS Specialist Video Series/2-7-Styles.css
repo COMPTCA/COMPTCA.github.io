@@ -1,0 +1,27 @@
+#title{
+    background: url(Images/sprite_text.png) 0 0;
+}
+
+#title:hover{
+    background: URL(Images/sprite_text.png) -250px 0;
+}
+
+.chrome .sprite{
+    background: url(Images/sprite_sheet.png) 0 0;
+}
+
+.ie .sprite{
+    background: url(Images/sprite_sheet.png) -500px 0;
+}
+
+.safari .sprite{
+    background: url(Images/sprite_sheet.png) -375px 0;
+}
+
+.firefox .sprite{
+    background: url(Images/sprite_sheet.png) -125px 0;
+}
+
+.opera .sprite{
+    background: url(Images/sprite_sheet.png) -250px 0;
+}

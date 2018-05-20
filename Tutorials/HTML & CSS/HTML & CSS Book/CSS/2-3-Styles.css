@@ -1,0 +1,29 @@
+p.pinkone{
+    background-color: #ee3e80;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+p.blackone{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    margin:  50px 40px;
+    opacity: .5;
+    position: absolute;
+    width: 100px;
+}
+
+p.pinktwo{
+    background-color: #ee3e80;
+    height: 100px;
+    margin-left: 200px;
+    position: absolute;
+    width: 100px;
+}
+p.blacktwo{
+    background-color: rgba(0, 0, 0, .5);
+    height: 100px;
+    margin:  50px 40px 50px 240px;
+    position: absolute;
+    width: 100px;
+}

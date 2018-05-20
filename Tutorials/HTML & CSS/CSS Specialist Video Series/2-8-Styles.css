@@ -1,0 +1,24 @@
+#mymenu .submenu ul{
+    background-color: lightblue;
+    border-bottom: 3px solid lightsalmon;
+    border-left: 3px solid lightsalmon; /* Want to make border same color as top menu bar */
+    border-right: 3px solid lightsalmon;
+    display: none;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 10px;
+    position: fixed;
+}
+
+#mymenu .submenu:hover ul{
+    display: block;
+}
+
+#mymenu{
+    background-color: lightsalmon;
+}
+
+#mymenu td{
+    padding-left: 20px;
+    padding-right: 20px;
+}

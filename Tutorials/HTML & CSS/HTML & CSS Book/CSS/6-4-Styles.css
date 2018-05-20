@@ -1,0 +1,20 @@
+body{
+    color: #665544;
+    font-family: Arial, Verdana, sans-serif;
+    width: 750px;
+}
+h1{
+    background-color: #efefef;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+p{
+    width: 450px;
+}
+p.example{
+    margin-top: 100px;
+}
