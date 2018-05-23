@@ -3,7 +3,7 @@ $('#selector').append(vote);
 
 $('#selector a').on('click', function(e){
   	e.preventDefault();
-  	var queryString = 'vote=' + $(e.target).attr('id');
+  	var queryString = 'vote=' + $(e.target).attr('id').String();
   	$.get('votes.php', queryString, function(data){
     	$('#selector').html(data);
   	});
