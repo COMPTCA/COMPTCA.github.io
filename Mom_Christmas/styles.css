@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url(background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+==
+}
+body{
+}
+section.middle{
+    bottom: 0;
+    box-sizing: border-box;
+    color: orange;
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px orangered;
+    width: 60%;
+}
+section.middle p span{
+    float: right;
+}
+section.right{
+    background-color: orangered;
+    float: right;
+}
+section.right button{
+    background-color: orangered;
+    border-color: orangered;
+    color: orange;
+}
